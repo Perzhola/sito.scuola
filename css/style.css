@@ -1,0 +1,122 @@
+body,html{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:rgb(244, 242, 242);
+     font-family: "Source Code Pro", monospace;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 206, 206);
+}
+nav{
+    background-color: rgb(187, 243, 192);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style: none;
+    margin-right:20px ;
+    font-size: larger;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: cornsilk;
+}
+.progetti > div{
+    background-color: cornsilk;
+    width: 30%;
+    height: 220px;
+    font-size: 24px;
+    margin-left: 5%;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 25px;
+}
+
+.progetti{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+.immagine{
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 67px;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 80px;
+    background-color: bisque;
+    
+}
+.servizio{
+    background-color: cornsilk;
+    width: 33%;
+    height: 230px;
+    font-size: 24px;
+    margin-left: 33.5%;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 25px;
+}
+.cliente{
+     background-color: cornsilk;
+    width: 33%;
+    height: 300px;
+    font-size: 24px;
+    margin-left: 33.5%;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 25px;
+}
+.img-contatti{
+    display: flex;
+    width: 550px;
+    height: 310px;
+    margin-left: 5%;
+    border: 4px solid black;
+}
+.NostriContatti{
+background-color: cornsilk;
+    width: 33%;
+    height: 260px;
+    font-size: 24px;
+    
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 25px;
+}
+#Sezione-seconda-pagina, #Sezione-quarta-pagina, #Sezione-terza-pagina{
+    display: none;
+    height:50vh;
+}
+#Sezione-prima-pagina{
+    display: flex;
+    height: 50vh;
+}
+#Sezione-quarta-pagina{
+    gap: 15%;
+}
